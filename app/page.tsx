@@ -50,7 +50,6 @@ export default function Home() {
       <GetStarted onRequestDemo={openRequestDemo} />
       
       <Footer 
-        onRequestDemo={openRequestDemo}
         onContactUs={openContactUs}
       />
 

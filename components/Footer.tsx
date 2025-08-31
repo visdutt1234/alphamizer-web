@@ -4,11 +4,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 interface FooterProps {
-  onRequestDemo: () => void
   onContactUs: () => void
 }
 
-export default function Footer({ onRequestDemo, onContactUs }: FooterProps) {
+export default function Footer({ onContactUs }: FooterProps) {
   return (
     <section className="footer-light">
       <div className="container-2 contain-footer">

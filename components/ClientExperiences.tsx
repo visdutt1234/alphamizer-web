@@ -40,7 +40,7 @@ export default function ClientExperiences() {
                 </svg>
               </div>
               <h4 className="a-experiences-card-header">
-                <span className="blue">Most funds fail.</span> A 'check-the-box' approach to residual, attribution, factors, and positioning is the #1 driver. In one shot, <span className="blue">Alphamizer puts you at the front of the pack</span> of infrastructure sophistication.
+                <span className="blue">Most funds fail.</span> A &apos;check-the-box&apos; approach to residual, attribution, factors, and positioning is the #1 driver. In one shot, <span className="blue">Alphamizer puts you at the front of the pack</span> of infrastructure sophistication.
               </h4>
               <h4 className="a-experiences-card-headline">Equity L/S Fund CIO</h4>
             </div>

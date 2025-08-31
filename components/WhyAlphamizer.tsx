@@ -14,7 +14,7 @@ export default function WhyAlphamizer() {
           <div className="w-layout-grid card-stack three-card stacked">
             <div className="card top first">
               <h1 className="headline-h4 why-alphamizer-title">
-                Know What's Happening
+                Know What&apos;s Happening
               </h1>
             </div>
             <div className="card top">
@@ -27,7 +27,7 @@ export default function WhyAlphamizer() {
             </div>
             <div id="w-node-_52cd20ab-ca99-091f-9e00-484000ae6d59-de17f5b2" className="card mid">
               <p className="paragraph-b1">
-                The industry's most advanced fundamental &amp; statistical
+                The industry&apos;s most advanced fundamental &amp; statistical
                 factor models <strong>explain (R<sup>2</sup>)</strong> most of
                 large cap single stock moves
               </p>
@@ -41,19 +41,19 @@ export default function WhyAlphamizer() {
               </p>
               <p className="paragraph-b1">
                 <strong
-                  >World's most advanced single-stock &amp; portfolio level
+                  >World&apos;s most advanced single-stock &amp; portfolio level
                   crowding &amp; ownership data</strong
                 >
               </p>
             </div>
             <div id="w-node-_6c311e4f-0445-c474-bd73-2745088ab05f-de17f5b2" className="card mid">
               <p className="paragraph-b1">
-                "Factor Extremes"
+                &ldquo;Factor Extremes&rdquo;
                 <strong>highlight outliers &amp; whipsaws</strong> across the
                 market, in single stocks and your portfolio
               </p>
               <p className="paragraph-b1">
-                Residual return outliers highlight the most "fundamental" lens
+                Residual return outliers highlight the most &ldquo;fundamental&rdquo; lens
                 to understand single-stock inflections
               </p>
               <p className="paragraph-b1">
@@ -81,7 +81,7 @@ export default function WhyAlphamizer() {
               <p className="paragraph-b1">
                 Breakdowns by
                 <strong>hit rate, sizing vs. selection P&amp;L</strong>, and
-                more ("Brinson Attribution")
+                more (&ldquo;Brinson Attribution&rdquo;)
               </p>
             </div>
             <div id="w-node-_8320b4b8-3df1-6a64-4c26-6af4845dc26a-de17f5b2" className="card bottom">

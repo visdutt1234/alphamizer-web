@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import "./globals.css";
 
 
@@ -42,15 +43,15 @@ export default function RootLayout({
         <link rel="shortcut icon" href="https://cdn.prod.website-files.com/641238e22ba5cd41cda1035b/664508c32597217bba1675ff_Favicon%2032px%20tbg.png" type="image/x-icon" />
         <link rel="apple-touch-icon" href="https://cdn.prod.website-files.com/641238e22ba5cd41cda1035b/6633087ab561a68b1bfc8560_Frame%201321315032fasd.png" />
         <link rel="canonical" href="https://www.alphamizer.io" />
-        <script async src="/js/js_id_g_x5bbemk7jt"></script>
+        <Script async src="/js/js_id_g_x5bbemk7jt" />
       </head>
       <body className="body-2" data-ix="close-modal" style={{ transition: 'all' }}>
         {children}
-        <script src="/js/jquery_latest.min.js"></script>
-        <script src="/js/webflow.schunk.36b8fb49256177c8.js"></script>
-        <script src="/js/webflow.3a792305.1a9cb73c85dd08b6.js"></script>
-        <script src="/js/inline_scripts.js"></script>
-        <script src="/js/tracking.js"></script>
+        <Script src="/js/jquery_latest.min.js" strategy="afterInteractive" />
+        <Script src="/js/webflow.schunk.36b8fb49256177c8.js" strategy="afterInteractive" />
+        <Script src="/js/webflow.3a792305.1a9cb73c85dd08b6.js" strategy="afterInteractive" />
+        <Script src="/js/inline_scripts.js" strategy="afterInteractive" />
+        <Script src="/js/tracking.js" strategy="afterInteractive" />
       </body>
     </html>
   );

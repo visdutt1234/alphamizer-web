@@ -25,7 +25,7 @@ export default function TermsOfUse() {
       <section className="hero-heading-right-copy">
         <h1 className="heading-4">Terms of Use</h1>
         <p className="paragraph-9">
-          This "Terms of Use" (or "<strong>Terms of Use</strong>") applies to www.alphamizer.com ("Site"), which is owned and operated by Editobn AI, Inc. ("Company" or "we" or "us"), app.alphamizer.com, and the various websites, services, and applications which are accessed thereby (collectively with the Site, the "Service"). This Terms of Use explains how we collect, use and disclose personally identifying information ("Personal Information") gathered through the Service. This Terms of Use is subject to and incorporates by reference the Privacy Policy (located at: alphamizer.com/privacypolicy).
+          This &ldquo;Terms of Use&rdquo; (or &ldquo;<strong>Terms of Use</strong>&rdquo;) applies to www.alphamizer.com (&ldquo;Site&rdquo;), which is owned and operated by Editobn AI, Inc. (&ldquo;Company&rdquo; or &ldquo;we&rdquo; or &ldquo;us&rdquo;), app.alphamizer.com, and the various websites, services, and applications which are accessed thereby (collectively with the Site, the &ldquo;Service&rdquo;). This Terms of Use explains how we collect, use and disclose personally identifying information (&ldquo;Personal Information&rdquo;) gathered through the Service. This Terms of Use is subject to and incorporates by reference the Privacy Policy (located at: alphamizer.com/privacypolicy).
         </p>
         <p className="paragraph-10">
           We reserve the right to change this Privacy Policy from time to time without notice to you. You should check here periodically to review the current Privacy Policy, which is effective as of the revision date listed below. Your use of the Service and submission of Personal Information to us constitutes acceptance and understanding of this Privacy Policy.
@@ -53,7 +53,7 @@ export default function TermsOfUse() {
             <li>To provide you with information about our products and services that we believe you may find of interest, including to send you mailing lists, and marketing and promotional e-mails;</li>
             <li>To authenticate users of the Service; </li>
             <li>To respond to requests or inquiries, and for similar, customer service-related purposes;</li>
-            <li>We automatically collect through the Service information that is often not personally identifying, such as the website from which visitors came to the Service, Service visitors' IP address, browser type and other information relating to the device through which they access the Service. We may combine this information with the Personal Information we have collected from you; and</li>
+            <li>We automatically collect through the Service information that is often not personally identifying, such as the website from which visitors came to the Service, Service visitors&apos; IP address, browser type and other information relating to the device through which they access the Service. We may combine this information with the Personal Information we have collected from you; and</li>
             <li>To improve the Service and offerings or services provided by us and to better understand how users access and use the Service and offerings provided by us.<br/><br/>For clarity, we do not make any warranty, express, implied or otherwise, that we will be able to prevent loss, misuse, unauthorized access to, or alteration of personally identifiable information you provide to us. You make any disclosure of personally identifiable information to us at your own risk.</li>
           </ul>
         </div>
@@ -79,12 +79,12 @@ export default function TermsOfUse() {
         
         <div className="privacy-policy-paragraph">
           <p className="paragraph-11"><em>Cookies</em></p>
-          <p>We (including our chosen third-party service providers) may use cookies to track visitor or user activity on the Service. A cookie is a text file that a website transfers to your computer's hard drive for record-keeping purposes. Our cookies assign a random, unique number to each visitor's computer. They do not contain information that would personally identify the visitor, although we can associate a cookie with any identifying information that is or has been provided to us while visiting the Service. We may use cookies that remain on your computer for a specified period of time or until they are deleted (persistent cookies). We may also use cookies that exist only temporarily during an online session (session cookies) – these cookies allow us to identify you temporarily as you move through the Service. Most browsers allow users to refuse cookies but doing so may impede the functionality of some portions of our Service.</p>
+          <p>We (including our chosen third-party service providers) may use cookies to track visitor or user activity on the Service. A cookie is a text file that a website transfers to your computer&apos;s hard drive for record-keeping purposes. Our cookies assign a random, unique number to each visitor&apos;s computer. They do not contain information that would personally identify the visitor, although we can associate a cookie with any identifying information that is or has been provided to us while visiting the Service. We may use cookies that remain on your computer for a specified period of time or until they are deleted (persistent cookies). We may also use cookies that exist only temporarily during an online session (session cookies) – these cookies allow us to identify you temporarily as you move through the Service. Most browsers allow users to refuse cookies but doing so may impede the functionality of some portions of our Service.</p>
         </div>
         
         <div className="privacy-policy-paragraph">
           <p className="paragraph-11"><em>Web Beacons</em></p>
-          <p>Web beacons are tiny graphics with a unique identifier, similar in function to cookies, that are used to track the online movements of Web users. In contrast to cookies, which are stored on your computer's hard drive, Web beacons are embedded invisibly on webpages and may not be disabled or controlled through your browser.</p>
+          <p>Web beacons are tiny graphics with a unique identifier, similar in function to cookies, that are used to track the online movements of Web users. In contrast to cookies, which are stored on your computer&apos;s hard drive, Web beacons are embedded invisibly on webpages and may not be disabled or controlled through your browser.</p>
         </div>
         
         <div className="privacy-policy-paragraph">
@@ -109,7 +109,7 @@ export default function TermsOfUse() {
         
         <div className="privacy-policy-paragraph">
           <p className="paragraph-11"><em>International Users</em></p>
-          <p>The Service is hosted in the United States. If you are accessing the Service from outside the United States, by providing your information to the Service, you are consenting to and authorizing the transfer of your information to the United States for storage, use, processing, maintenance and onward transfer of such information to other entities, regardless of their location, in accordance with this Privacy Policy and the Service's Terms of Use. For clarity, and as outlined in the Terms of Use, you are also consenting to the application of United States law in all matters concerning the Service.</p>
+          <p>The Service is hosted in the United States. If you are accessing the Service from outside the United States, by providing your information to the Service, you are consenting to and authorizing the transfer of your information to the United States for storage, use, processing, maintenance and onward transfer of such information to other entities, regardless of their location, in accordance with this Privacy Policy and the Service&apos;s Terms of Use. For clarity, and as outlined in the Terms of Use, you are also consenting to the application of United States law in all matters concerning the Service.</p>
         </div>
         
         <div className="privacy-policy-paragraph">
@@ -119,7 +119,6 @@ export default function TermsOfUse() {
       </section>
       
       <Footer 
-        onRequestDemo={openRequestDemo}
         onContactUs={openContactUs}
       />
 

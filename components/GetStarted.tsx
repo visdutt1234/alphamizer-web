@@ -11,7 +11,7 @@ export default function GetStarted({ onRequestDemo }: GetStartedProps) {
         <h2 className="no-padding-bottom headline-h2">Reach Out to Learn More</h2>
         <p className="spark-hero-sub-paragraph no-padding-bottom">
           Understand the lens of residual performance, how you &amp; others
-          are positioned, what extremes are driving today's markets - and what
+          are positioned, what extremes are driving today&apos;s markets - and what
           you can do about it. An analytical revolution is quietly underway in
           investment management. Join us.
         </p>

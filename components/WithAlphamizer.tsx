@@ -22,7 +22,7 @@ export default function WithAlphamizer() {
                   >Avoid meaningless debate on stock movements by disaggregating
                   single-stock residual vs. macro factors</strong
                 >
-                to understand the full picture of what's happening to your
+                to understand the full picture of what&apos;s happening to your
                 stocks.
               </p>
             </div>

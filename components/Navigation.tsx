@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import { useClientMount } from '../hooks/useClientMount'
 
 interface NavigationProps {
@@ -21,7 +22,7 @@ export default function Navigation({ onRequestDemo, onContactUs }: NavigationPro
         <div className="w-layout-blockcontainer content-section--container navbar w-container">
           <div id="w-node-_5a9b7bd7-b0e9-48f8-40dc-e33e5ea91e32-5ea91e2f" className="w-layout-grid navbar--content--grid">
             <div id="w-node-_5a9b7bd7-b0e9-48f8-40dc-e33e5ea91e33-5ea91e2f" className="w-layout-vflex navbar--content--grid--item leading">
-              <a href="/" aria-current="page" className="w-inline-block w--current">
+              <Link href="/" aria-current="page" className="w-inline-block w--current">
                 <Image
                   src="/images/logo.jpeg"
                   width={200}
@@ -29,18 +30,18 @@ export default function Navigation({ onRequestDemo, onContactUs }: NavigationPro
                   alt="Alphamizer Logo"
                   priority
                 />
-              </a>
+              </Link>
             </div>
             
             <div id="w-node-_5a9b7bd7-b0e9-48f8-40dc-e33e5ea91e36-5ea91e2f" className="w-layout-vflex navbar--content--grid--item content">
               <ul role="list" className="navbar--menu w-list-unstyled">
                 <li className="navbar--menu--item">
-                  <a href="/#client-experiences" className="navbar--menu--item--link w-inline-block">
+                  <Link href="/#client-experiences" className="navbar--menu--item--link w-inline-block">
                     <div>Client Experiences</div>
-                  </a>
-                  <a href="/#how-it-works" className="navbar--menu--item--link w-inline-block">
+                  </Link>
+                  <Link href="/#how-it-works" className="navbar--menu--item--link w-inline-block">
                     <div>How It Works</div>
-                  </a>
+                  </Link>
                   <a 
                     href="https://job-boards.greenhouse.io/alphamizeranalytics" 
                     target="_blank" 
@@ -103,7 +104,7 @@ export default function Navigation({ onRequestDemo, onContactUs }: NavigationPro
           <div className="w-layout-blockcontainer content-section--container navbar opened w-container">
             <div id="w-node-_5a9b7bd7-b0e9-48f8-40dc-e33e5ea91e4c-5ea91e2f" className="w-layout-grid navbar--content--grid">
               <div id="w-node-_5a9b7bd7-b0e9-48f8-40dc-e33e5ea91e4d-5ea91e2f" className="w-layout-vflex navbar--content--grid--item leading">
-                <a href="/" aria-current="page" className="w-inline-block w--current">
+                <Link href="/" aria-current="page" className="w-inline-block w--current">
                   <Image
                     src="/images/logo.jpeg"
                     width={200}
@@ -111,21 +112,21 @@ export default function Navigation({ onRequestDemo, onContactUs }: NavigationPro
                     alt="Alphamizer Logo"
                     className="image-22"
                   />
-                </a>
+                </Link>
               </div>
               
               <div id="w-node-_5a9b7bd7-b0e9-48f8-40dc-e33e5ea91e50-5ea91e2f" className="w-layout-vflex navbar--content--grid--item content">
                 <ul role="list" className="navbar--menu w-list-unstyled">
                   <li className="navbar--menu--item">
-                    <a href="#why-alphamizer" className="navbar--menu--item--link w-inline-block">
+                    <Link href="#why-alphamizer" className="navbar--menu--item--link w-inline-block">
                       <div>Why Alphamizer</div>
-                    </a>
-                    <a href="#how-it-works" className="navbar--menu--item--link w-inline-block">
+                    </Link>
+                    <Link href="#how-it-works" className="navbar--menu--item--link w-inline-block">
                       <div>How It Works</div>
-                    </a>
-                    <a href="#client-experiences" className="navbar--menu--item--link w-inline-block">
+                    </Link>
+                    <Link href="#client-experiences" className="navbar--menu--item--link w-inline-block">
                       <div>Client Experiences</div>
-                    </a>
+                    </Link>
                     <div className="navbar--menu--item--link" onClick={onContactUs}>
                       <div>Contact Us</div>
                     </div>
@@ -191,15 +192,15 @@ export default function Navigation({ onRequestDemo, onContactUs }: NavigationPro
           
           <ul role="list" className="navbar--menu mobile w-list-unstyled">
             <li className="navbar--menu--item mobile">
-              <a href="/#client-experiences" className="navbar--menu--item--link w-inline-block">
+              <Link href="/#client-experiences" className="navbar--menu--item--link w-inline-block">
                 <div>Client Experiences</div>
-              </a>
-              <a href="/#how-it-works" className="navbar--menu--item--link w-inline-block">
+              </Link>
+              <Link href="/#how-it-works" className="navbar--menu--item--link w-inline-block">
                 <div>How It Works</div>
-              </a>
-              <a href="/#why-alphamizer" className="navbar--menu--item--link w-inline-block">
+              </Link>
+              <Link href="/#why-alphamizer" className="navbar--menu--item--link w-inline-block">
                 <div>Why Alphamizer</div>
-              </a>
+              </Link>
               <a 
                 href="https://job-boards.greenhouse.io/alphamizeranalytics" 
                 target="_blank" 

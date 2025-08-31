@@ -26,7 +26,7 @@ export default function HowItWorks() {
                 </div>
                 <div className="w-layout-vflex flex-block-4">
                   <h6 className="paragraph-b1 semibold">
-                    Industry's Most Advanced Risk Model
+                    Industry&apos;s Most Advanced Risk Model
                   </h6>
                   <p className="paragraph-b1">
                     Alphamizer is built around the most sophisticated fundamental
@@ -149,7 +149,7 @@ export default function HowItWorks() {
                     <strong>Ownership, Crowding, &amp;&nbsp;Performance Database</strong>
                   </h6>
                   <p className="paragraph-b1">
-                    Alphamizer's ownership &amp; crowding data, leveraging treasury,
+                    Alphamizer&apos;s ownership &amp; crowding data, leveraging treasury,
                     live short interest data, and the full idio &amp; factor
                     model, produce unprecedented accuracy into understanding live
                     behavior of long side crowding.<br />
@@ -162,7 +162,7 @@ export default function HowItWorks() {
                   <p className="paragraph-b1">
                     The Alphamizer system puts together single-stock options, implied
                     earnings moves, macro exposures, consensus estimate revisions,
-                    positioning, factor drivers and more to make sure you're not
+                    positioning, factor drivers and more to make sure you&apos;re not
                     missing what is driving the vast majority of stock movement.
                   </p>
                 </div>
