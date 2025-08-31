@@ -13,6 +13,7 @@ export default function Home() {
           height={38}
           priority
         />
+        <h1>Hello <b>Vishnu</b></h1>
         <Image
             aria-hidden
             src="/images/884D578C-2BD2-41EC-B988-F7AACCC4AD05_4_5005_c.jpeg"
