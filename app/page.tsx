@@ -13,6 +13,13 @@ export default function Home() {
           height={38}
           priority
         />
+        <Image
+            aria-hidden
+            src="/images/884D578C-2BD2-41EC-B988-F7AACCC4AD05_4_5005_c.jpeg"
+            alt="Globe icon"
+            width={500}
+            height={500}
+          />
         <ol>
           <li>
             Get started by editing <code>app/page.tsx</code>.
