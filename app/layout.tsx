@@ -1,16 +1,6 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -23,9 +13,44 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="en" className="w-mod-ix">
+      <head>
+        <title>Alphamizer | Idio, Crowding, Risk, & Performance</title>
+        <meta
+          name="description"
+          content="Alphamizer enables institutional investors to understand their portfolio risks, decompose single stock & book performance, drill into crowding, and isolate their idiosyncratic differentiation. Built on our proprietary crowding, ownership, factor risk, and performance datasets."
+        />
+        <meta
+          property="og:title"
+          content="Alphamizer | Idio, Crowding, Risk, & Performance"
+        />
+        <meta
+          property="og:description"
+          content="Alphamizer enables institutional investors to understand their portfolio risks, decompose single stock & book performance, drill into crowding, and isolate their idiosyncratic differentiation."
+        />
+        <meta
+          property="og:image"
+          content="https://cdn.prod.website-files.com/641238e22ba5cd41cda1035b/663870837a69f37938e89900_Facebook%20cover%20-%201%20(1).jpg"
+        />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="google-site-verification"
+          content="oXlMa8aKg-0dMwzHu4sIqkj-gbB7Rad9HwZY83KToz4"
+        />
+        <link rel="shortcut icon" href="https://cdn.prod.website-files.com/641238e22ba5cd41cda1035b/664508c32597217bba1675ff_Favicon%2032px%20tbg.png" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="https://cdn.prod.website-files.com/641238e22ba5cd41cda1035b/6633087ab561a68b1bfc8560_Frame%201321315032fasd.png" />
+        <link rel="canonical" href="https://www.alphamizer.io" />
+        <script async src="/js/js_id_g_x5bbemk7jt"></script>
+      </head>
+      <body className="body-2" data-ix="close-modal" style={{ transition: 'all' }}>
         {children}
+        <script src="/js/jquery_latest.min.js"></script>
+        <script src="/js/webflow.schunk.36b8fb49256177c8.js"></script>
+        <script src="/js/webflow.3a792305.1a9cb73c85dd08b6.js"></script>
+        <script src="/js/inline_scripts.js"></script>
+        <script src="/js/tracking.js"></script>
       </body>
     </html>
   );
